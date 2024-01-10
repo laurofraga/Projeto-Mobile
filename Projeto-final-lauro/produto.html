@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/header-footer-min.css">
+    <link rel="stylesheet" href="resources/css/produto-min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap"
+        rel="stylesheet">
+
+    <title>DropStore</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar">
+                <div class="menu container">
+                    <img src="resources/img/logo.png" class="logo">
+                    <ul class="main-menu">
+                        <li><a href="historia.html">Nossa História</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="carrinho.html">Carrinho</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="product">
+            <div class="product-img">
+                <img src="resources/img/prod1-min.jpg" alt="Tênis camurça">
+            </div>
+            <div class="prod-description">
+                <h1>Tênis Camurça Cano Alto</h1>
+                <p>Tênis Casual em camurça, perfeito para todas ocasiões</p>
+                <p>R$899,90</p>
+
+                <form action="carrinho.html">
+                    <label for="size"> Tamanho: </label>
+                    <select name="size" id="size">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">Adicionar ao Carrinho</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <nav class="footer">
+                <ul class="socials">
+                    <li><a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+                    <li><a href="twitter.com"><ion-icon name="logo-twitter"></ion-icon> </a></li>
+                    <li><a href="instagram.com"><ion-icon name="logo-instagram"></ion-icon> </a></li>
+                </ul>
+                <div class="local">
+                    <address> Rua Coronel Genuino - 358, Centro Histórico</address>
+                </div>
+
+                <ul class="payment-methods">
+                    <li><ion-icon name="logo-usd"></ion-icon></li>
+                    <li><ion-icon name="card"></ion-icon></li>
+                    <li><ion-icon name="cash"></ion-icon></li>
+                </ul>
+
+            </nav>
+        </footer>
+
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
